@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Documentation</title>
+	<style>
+		@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);*{box-sizing:border-box}body{font-family:Poppins,sans-serif;display:flex;line-height:1.7;margin:0;padding:0}main header,nav header{font-weight:700;font-size:1.5em}nav{border-right:3px solid #333;width:1000px}nav header{padding:15px}nav a{display:block;border-top:1px solid #333;padding:15px;text-decoration:none;color:#333}main{padding:20px;height:100vh;overflow-y:scroll;}code pre{background-color:#eee;padding:20px}@media only screen and (max-width:576px){body{flex-direction:column}nav{border-bottom:3px solid #333;overflow-y:scroll;height:300px}main{overflow-y:unset}}
+	</style>
+</head>
+
+<body>
+	<nav id="navbar">
+		<header>Documentation</header>
+		<a href="#Introduction" class="nav-link">Introduction</a>
+		<a href="#Changing_Text" class="nav-link">Changing Text</a>
+		<a href="#Changing_Image" class="nav-link">Changing Image</a>
+		<a href="#Link" class="nav-link">Link</a>
+		<a href="#Add_Video" class="nav-link">Add Video</a>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<header>Introduction</header>
+			<p>thank you for choosing html template from <a href="templatemonster.com">TemplateMonster</a>, we wish you enjoy the html template.<br>
+			regards TemplateMonster.com</p>
+		</section>
+		<section class="main-section" id="Changing_Text">
+			<header>Changing Text</header>
+			<p>you can change the text with change text between the tag</p>
+			<h3>html heading tag example</h3>
+			<code><pre>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</pre></code>
+			<p>the result will be like</p>
+			<samp><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Header 5</h5><h6>Heading 6</h6></samp>
+			<h3>html paragraph tag example</h3>
+			<code><pre>
+&lt;p&gt;paragraph&lt;/p&gt;
+			</pre></code>
+			<p>the result will be like</p>
+			<samp><p>paragraph</p></samp>
+			<h3>html title tag example</h3>
+			<code>
+				<pre>
+&lt;title&gt;Google&lt;/title&gt;
+				</pre>
+			</code>
+			<p>the result will be like</p>
+			<samp>
+			<img src="title.png" alt="title">
+			</samp>
+			<p>you can see in browser tab</p>
+		</section>
+		<section class="main-section" id="Changing_Image">
+			<header>Changing Image</header>
+			<p>You can change the image with change the src on img tag</p>
+			<p>image text example</p>
+			<code><pre>
+&lt;img src="image/cat.png" alt="cat"&gt;
+			</pre></code>
+			<p>the result will be like</p>
+			<samp><img src="https://images.unsplash.com/photo-1556582305-528bffcf7af0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt=""></samp>
+			<p><b>NOTE:</b> you must add <code>alt</code> to your image. it will appear when your image cannot load</p>
+			<samp>
+				<img src="" alt="cat">
+			</samp>
+		</section>
+		<section class="main-section" id="Link">
+			<header>Link</header>
+			<p>link can be text and image</p>
+			<p>html link tag</p>
+			<code><pre>
+&lt;a href="monstertemplate.com"&gt;templatemonster&lt;/a&gt;
+			</pre></code>
+			<p>the result will be like</p>
+			<samp><a href="templatemonster.com">templatemonster</a></samp>
+			<p>if you click the link you will move to the link or section in <code>href</code> destination</p>
+			<code><pre>
+&lt;a href="monstertemplate.com"&gt;&lt;img src="image/icon.svg"&gt;&lt;/a&gt;
+			</pre></code>
+			<samp>
+				<a href="templatemonster.com"><img src="templatemonster.svg" style="color: #333;"></a>
+			</samp>
+		</section>
+		<section class="main-section" id="Add_Video">
+			<header>Add Video</header>
+			<p>you can add video with change the <code>src</code></p>
+			<p>html video tag</p>
+			<code><pre>
+&lt;video src="cat.webm"&gt;&lt;/video&gt;
+			</pre></code>
+			<samp>
+				<video src="https://cdn.videvo.net/videvo_files/video/free/2016-03/small_watermarked/gatos__preview.webm" controls></video>
+			</samp>
+		</section>
+	</main>
+</body>
+
+</html>
