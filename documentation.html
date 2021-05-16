@@ -14,11 +14,13 @@
 		<header>Documentation</header>
 		<a href="#Introduction" class="nav-link">Introduction</a>
 		<a href="#Preparation" class="nav-link">Preparation</a>
-		<a href="#Changing_Text" class="nav-link">Changing Text</a>
-		<a href="#Changing_Image" class="nav-link">Changing Image</a>
+		<a href="#Changing_Text" class="nav-link">Text</a>
+		<a href="#Changing_Image" class="nav-link">Image</a>
 		<a href="#Link" class="nav-link">Link</a>
 		<a href="#Add_Video" class="nav-link">Add Video</a>
+		<a href="#Changing_Color" class="nav-link">Changing Color</a>
 	</nav>
+
 	<main id="main-doc">
 		<section class="main-section" id="Introduction">
 			<header>Introduction</header>
@@ -39,9 +41,10 @@
 				<li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a></li>
 			</ol>
 		</section>
+
 		<br>
 		<section class="main-section" id="Changing_Text">
-			<header>Changing Text</header>
+			<header>Text</header>
 			<p>you can change the text with change text between the tag</p>
 			<h3>html heading tag example</h3>
 			<code><pre>
@@ -68,6 +71,18 @@
 			<samp>
 				<p>paragraph</p>
 			</samp>
+			<h3>change text color</h3>
+			<p>you can change the color of text by change <code>color:</code> on css file</p>
+			<code><pre>
+h1 {
+	color: blue;
+}
+			</pre></code>
+			<p>the result will be like</p>
+			<samp>
+				<h3 style="color: blue;">heading 3</h3>
+			</samp>
+			<p><b>NOTE:</b> you can change the color of text with color name or hex color code or RGB</p>
 			<h3>html title tag example</h3>
 			<code>
 				<pre>
@@ -80,9 +95,10 @@
 			</samp>
 			<p>you can see in browser tab</p>
 		</section>
+
 		<br>
 		<section class="main-section" id="Changing_Image">
-			<header>Changing Image</header>
+			<header>Image</header>
 			<p>You can change the image with change the src on img tag</p>
 			<p>image text example</p>
 			<code><pre>
@@ -92,7 +108,7 @@
 			<samp><img
 					src="https://images.unsplash.com/photo-1556582305-528bffcf7af0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
 					alt=""></samp>
-			<p><b>NOTE:</b> you must add <code>alt</code> to your image. it will appear when your image cannot load</p>
+			<p><b>NOTE:</b> you must add <code>alt</code> to your image. it will appear when your image cannot load.</p>
 			<samp>
 				<img src="" alt="cat">
 			</samp>
@@ -123,6 +139,7 @@
 				<a href="templatemonster.com"><img src="templatemonster.svg"></a>
 			</samp>
 		</section>
+
 		<br>
 		<section class="main-section" id="Add_Video">
 			<header>Add Video</header>
@@ -134,6 +151,20 @@
 			<samp>
 				<video src="https://cdn.videvo.net/videvo_files/video/free/2016-03/small_watermarked/gatos__preview.webm"
 					controls></video>
+			</samp>
+		</section>
+
+		<br>
+		<section class="main-section" id="Changing_Color">
+			<header>Changing Color</header>
+			<p>you can change color <code>background-color:</code> in css file</p>
+			<code><pre>
+.rectangle {
+	background-color: blue;
+}
+			</pre></code>
+			<samp>
+				<div class="rectangle"></div>
 			</samp>
 		</section>
 	</main>
